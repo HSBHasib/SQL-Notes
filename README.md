@@ -1,4 +1,4 @@
-# 📘 SQL Notes
+# SQL-Notes
 
 ## 🧠 What is a Database?
 
@@ -10,5 +10,3 @@ Why databases?
  • Features like security, scalability etc.
  • Easier to insert, update or delete data. 
 ```
-
-
