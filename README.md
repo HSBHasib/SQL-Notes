@@ -1,7 +1,6 @@
 # SQL-Notes
 
-## 🧠 What is a Database?
-
+## 1️⃣ What is a Database?
 ↪ It is a collection of data in a format that can be easily accessed.
 
 ```js
@@ -10,3 +9,15 @@ Why databases?
  • Features like security, scalability etc.
  • Easier to insert, update or delete data. 
 ```
+
+---
+
+## 2️⃣ SQL vs NoSQL
+| Feature | SQL                  | NoSQL           |
+| ------- | -------------------- | --------------- |
+| Type    | Relational           | Non-relational  |
+| Data    | Table (rows/columns) | JSON, key-value, graph, etc |
+| Schema  | Fixed                | Flexible        |
+| Example | MySQL, Oracle, PostgreSQL    | MongoDB, Cassandra, Neo4j, etc |
+
+---
