@@ -17,7 +17,7 @@ Why databases?
 | ------- | -------------------- | --------------- |
 | Type    | Relational           | Non-relational  |
 | Data    | Table (rows/columns) | JSON, key-value, graph, etc |
-| Schema  | Fixed                | Flexible        |
+| Schema/Design  | Fixed                | Flexible        |
 | Example | MySQL, Oracle, PostgreSQL    | MongoDB, Cassandra, Neo4j, etc |
 
 ---
@@ -28,4 +28,6 @@ Why databases?
 SQL is a programming language used to interact with relational databases.
 ```
 
+---
 
+4️⃣ What is a Table?
