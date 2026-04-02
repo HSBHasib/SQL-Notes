@@ -30,4 +30,22 @@ SQL is a programming language used to interact with relational databases.
 
 ---
 
-4️⃣ What is a Table?
+## 4️⃣ What is a Table?
+```js
+↪ A table is a collection of rows and columns used to store data.
+```
+
+---
+
+### Create New Database
+```js
+CREATE DATABASE users;
+```
+
+### Delete Database
+```js
+DROP DATABASE users;
+```
+
+
+```
