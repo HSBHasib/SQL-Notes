@@ -1,5 +1,7 @@
 # SQL-Notes
 
+---
+
 ## 1️⃣ What is a Database?
 ```js
 ↪ It is a collection of data in a format that can be easily accessed.
@@ -71,7 +73,7 @@ USE users;
  • Delete  - (Delete The Table)
 ```
 
-###  For Create New Table
+###  Create New Table
 ```js
 CREATE TABLE table_name (
   column_name1 datatype constraint, - (Constraint Optional )
@@ -87,12 +89,13 @@ CREATE TABLE students (
 );
 ```
 
-###  For Insert The Data Into Table
+###  Insert Data Into Table
 ```js
 INSERT INTO students
+(id, name, age)
 VALUES
-(1, 'Hasib', 20);
-(2, 'Adib', 30);
+(1, 'Hasib', 20),
+(2, 'Adib', 22);
 ```
 
 ### Show TABLES -(It Show all the TABLES Info)
@@ -146,4 +149,17 @@ FKs can have duplicate & null values.
 There can be multiple FKs.
 ```
 
+---
 
+### Select & Show data from DB 
+```js
+// Show The Specific Data
+SELECT col1, col2 FROM table_name;
+
+// ( DISTINCT ) - Select The Unique Data
+SELECT DISTINCT age FROM table_name;
+
+// to show all table data
+SELECT * FROM table_name;
+
+```
