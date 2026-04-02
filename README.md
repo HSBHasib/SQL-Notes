@@ -1,9 +1,9 @@
 # SQL-Notes
 
 ## 1️⃣ What is a Database?
+```js
 ↪ It is a collection of data in a format that can be easily accessed.
 
-```js
 Why databases?
  • Can store large data
  • Features like security, scalability etc.
@@ -21,3 +21,11 @@ Why databases?
 | Example | MySQL, Oracle, PostgreSQL    | MongoDB, Cassandra, Neo4j, etc |
 
 ---
+
+## 3️⃣ What is SQL?
+```js
+↪ SQL (Structured Query Language)
+SQL is a programming language used to interact with relational databases.
+```
+
+
