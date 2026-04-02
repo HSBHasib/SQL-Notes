@@ -118,8 +118,6 @@ CREATE TABLE students (
   CONSTRAINT age_check CHECK (age >= 13)  - (age-check it is a name and name is optinal)
 );
 
-
-• KEY is a special column
 • PRIMARY KEY  - makes a column unique & not null but used only for one
                  CREATE TABLE temp (
                   id INT NOT NULL,
@@ -131,7 +129,21 @@ CREATE TABLE students (
                   cust_id INT,
                   FOREIGN KEY (cust_id) REFERENCES customers(id)
                  );
+ 
+--------------------------------------------------------------------------------------------------------
 
+• What are KEYS?
+ KEY is a special column in the table
+
+• Primary Key
+It is a column (or set of columns) in a table that uniquely identifies each row. (a unique id)
+There is only 1 PK & it should be NOT null
+
+• Foreign Key
+A foreign key is a column (or set of columns) in a table that refers to the primary key in another table.
+FKs can have duplicate & null values.
+
+There can be multiple FKs.
 ```
 
 
